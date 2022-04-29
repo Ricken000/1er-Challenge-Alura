@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>codificador y decodificador</title> <!-- Titulo por declarar -->
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/index-style.css">
+    </head>
+    <body>
+        <header>
+            <div class="contenedor-logo">
+                <img class="logo" src="img/alura-logo.png" alt="Logo de Alura">
+            </div>
+        </header>
+        <main>
+                <div class="contenedor-encriptado"> 
+                    <input class="input-texto" type="text" id="textoIngresado" placeholder="Ingrese el texto aqui">
+                    <button class="boton-encriptar" onclick="encriptar()">Encriptar</button>
+                    <button class="boton-desencriptar" onclick="desencriptar()">Desencriptar</button>
+                </div>
+                <input class="texto-mostrado" type="text" id="textoMostrado" readonly>
+                <img class="imagen-texto" src="img/noMessage.png" alt="No se encontrado un mensaje">
+                <button onclick="copiar()">Copiar</button> 
+        </main>
+        <footer>
+                <p>Ricardo Caviedes Febre</p>
+        </footer>
+    </body>
+    <script src="js/encriptar.js"></script>
+    <script src="js/desencriptar.js"></script>
+    <script src="js/copiar.js"></script>
+</html>

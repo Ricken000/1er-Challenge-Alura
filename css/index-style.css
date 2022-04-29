@@ -1,0 +1,17 @@
+/* Para comentar*/
+.contenedor-logo{
+    width: auto;
+    height: 100px;
+    background-color: black;
+}
+.logo{
+    margin:2%;
+}
+.contenedor-encriptado{
+    width: auto;
+    height: 775px;
+    background-color: red;
+}
+.imagen-texto{
+ display: none;
+}
