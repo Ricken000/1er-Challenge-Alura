@@ -1,16 +1,40 @@
 /* Para comentar*/
 .contenedor-logo{
-    width: auto;
-    height: 100px;
+    width: 100vw;
+    height: 15vh;
 }
 .logo{
     margin:2%;
 }
-.contenedor-encriptado{
-    width: auto;
-    height: 775px;
-    background-color: red;
+.contenedor-textos{
+    width: 100vw;
+    height: 65vh;
 }
-.imagen-texto{
- display: none;
+.input-texto{
+    position: relative;
+    width: 30%;
+    height: 80%;
+    margin: 5% 20% 0% 25%;
+    border: none;
+}
+.texto-mostrado{
+    position: relative;
+    width: 20%;
+    height: 80%;
+    border: none;
+}
+::placeholder{
+    color: #0A3871;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.contenedor-botones{
+    width: 100vw;
+    height: 10vh;
+    background-color: aqua;
+}
+footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: blanchedalmond;
 }

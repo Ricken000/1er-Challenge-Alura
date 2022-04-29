@@ -25,16 +25,3 @@ function encriptar(){
     document.getElementById("textoMostrado").value = resultado;
     return resultado;
 }
-
-// Codigo de encriptacion, en el caso de que encuentre una letra
-// la cambiara por el valor de su derecha
-function codigo(x) {
-    switch(x) {
-    case 'e': return 'enter';
-    case 'i': return 'imes';
-    case 'a': return 'ai';
-    case 'o': return 'ober';
-    case 'u': return 'ufat';
-    default : return x;
-    }
-  }

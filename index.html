@@ -13,14 +13,15 @@
             </div>
         </header>
         <main>
-                <div class="contenedor-encriptado"> 
+                <div class="contenedor-textos"> 
                     <input class="input-texto" type="text" id="textoIngresado" placeholder="Ingrese el texto aqui">
+                    <input class="texto-mostrado" type="text" id="textoMostrado" placeholder="Ningun mensaje ha sido ingresado" readonly>
+                </div>
+                <div class="contenedor-botones">
                     <button class="boton-encriptar" onclick="encriptar()">Encriptar</button>
                     <button class="boton-desencriptar" onclick="desencriptar()">Desencriptar</button>
+                    <button onclick="copiar()">Copiar</button> 
                 </div>
-                <input class="texto-mostrado" type="text" id="textoMostrado" readonly>
-                <img class="imagen-texto" src="img/noMessage.png" alt="No se encontrado un mensaje">
-                <button onclick="copiar()">Copiar</button> 
         </main>
         <footer>
                 <p>Ricardo Caviedes Febre</p>
