@@ -1,6 +1,7 @@
 // accion al oprimir boton encriptar
 function encriptar(){
     var texto = document.querySelector("#textoIngresado").value;
+    filtrar(texto);
     var resultado = "";
     for (var i = 0; i < texto.length;i++) {
         if(texto[i] != "a" && texto[i] != "e" && texto[i] != "i" && texto[i] != "o" && texto[i] != "u"){
